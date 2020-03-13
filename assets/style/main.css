@@ -1,0 +1,223 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+img, image {
+    float: left;
+    width: 100%;
+    height: auto;
+}
+
+html, h1, h2, h3, h4, h5, h6, a {
+    font-family: "Raleway", sans-serif;
+}
+
+.bg-main {
+    padding: 1em;
+    position: relative;
+    background-image: url('../img/dark-souls-brand_background-long.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+div.container {
+    width: 96%;
+    margin: 0 auto;
+
+}
+
+.navbar {
+    background: #F97300;
+}
+
+.nav-link, .navbar-brand {
+    color: #f4f4f4;
+    cursor: pointer;
+}
+
+.nav-link {
+    margin-right: 1em !important;
+}
+
+.nav-link:hover {
+    background: #f4f4f4;
+    color: #f97300;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.navbar-toggler {
+    background: #fff !important;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.bg-dark {
+    background-color: #343a40 !important
+}
+
+.bg-primary {
+    background-color: #343a40 !important
+}
+
+.bg-doom {
+    background-image: url('../img/doom_eternal_bg_date_m_n.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.about {
+    padding: 1em;
+    position: relative;
+    background-image: url('../img/doom-eternal-bg.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.about h1 {
+    color: #F97300;
+    margin: 2em;
+}
+
+.about img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%
+}
+
+.about span {
+    display: block;
+    color: #888;
+    position: absolute;
+    left: 115px;
+}
+
+.about .desc {
+    padding: 2em;
+    border-left: 4px solid #f97300;
+}
+
+.about .desc h1 {
+    color: #f97300;
+}
+
+.about .desc p {
+    line-height: 2;
+    color: #888;
+}
+
+.screen h1 {
+    color: #f97300;
+    margin: 2em;
+}
+
+.slider {
+    position: relative;
+    overflow: hidden;
+}
+
+.slider__wrapper {
+    display: flex;
+    transition: transform 0.6s ease;
+}
+
+.slider__item {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+}
+
+.slider__control {
+    position: absolute;
+    top: 50%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    color: #fff;
+    text-align: center;
+    opacity: 0.5;
+    height: 50px;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, .5);
+}
+
+.slider__control_show {
+    display: flex;
+}
+
+.slider__control:hover,
+.slider__control:focus {
+    color: #fff;
+    text-decoration: none;
+    outline: 0;
+    opacity: .9;
+}
+
+.slider__control_left {
+    left: 0;
+}
+
+.slider__control_right {
+    right: 0;
+}
+
+.slider__control::before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: transparent no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.slider__control_left::before {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.slider__control_right::before {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.slider__item > div {
+    line-height: 250px;
+    font-size: 100px;
+    text-align: center;
+}
+
+.buy {
+    margin: 4em 0;
+    position: relative;
+}
+
+.buy h1 {
+    color: #F97300;
+    margin: 2em;
+}
+
+.buy .card {
+    box-shadow: 0 0 20px #ccc;
+}
+
+.buy .card img {
+    width: 100%;
+    height: 12em;
+}
+
+.buy .card-title {
+    color: #F97300;
+
+}
+
+.buy .card-body {
+    padding: 1em;
+}
+
+
